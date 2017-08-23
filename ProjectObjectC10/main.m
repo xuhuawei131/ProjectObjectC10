@@ -17,10 +17,15 @@ int main(int argc, const char * argv[]) {
         NSLog(@"ns:%@\n",ns);
         
         //NSString 初始化的字符串 是不能修改的 如果想修改 可以使用NSMutable
+        //initWithString 是以NSString 初始化为NSMutableString类型
         NSMutableString* str=[[NSMutableString alloc]initWithString:@"abcdefg"];//c初始化
         [str appendString:@"hijk"];//追加
         [str appendFormat:@"%d",100];//格式化追加
         NSLog(str);
+        
+        //NSMutableString 的init方式有很多 下面的是fomat格式化的方式 初始化
+        NSMutableString* str2=[[NSMutableString alloc]initWithFormat:@"time is %d:%d:%d",8,8,8];//c初始化
+        NSLog(str2);
         
         //NSArray 是固定的数组 初始化完成之后 不能再添加了
 //        NSArray* array1=[NSArray arrayWithObjects:@"item1",@"item2"];
