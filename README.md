@@ -27,6 +27,9 @@ NSString *nsString = [NSString stringWithString:mutableStr];
 
 NSString 比较字符串内存 使用 isEqualToString
 
+NSMutableString 介绍的网址
+http://www.cnblogs.com/qingyuan/p/3550445.html
+
 NSLog 输出NSString类型的字符串  它可以以fomat形式输出
 NSLog的格式输出如下：
 %@        对象
@@ -53,5 +56,7 @@ NSLog(@"a=%d,y=%d",10,20);
 
 关于NSString 比较的问题可以参考网址：http://blog.csdn.net/jiangwei0910410003/article/details/41788223
 
-
-
+NSArray 与NSMutableArray区别是 NSArray饰初始化之后不可修改  而NSMutableArray是可以动态添加修改的
+他们其他的方法都是一样的 count方法可以获取数据  
+下面是关于NSArray介绍的信息
+http://www.jianshu.com/p/c8caa30afd9d
