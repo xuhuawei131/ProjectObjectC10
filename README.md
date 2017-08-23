@@ -3,10 +3,14 @@
 
 NSString *str=@"abc"
 使用了语法糖的东西把字符串指针转化为类指针
+
 语法糖内部把类的初始化然后赋值的操作都给做了
-NSString的字符是无法修改的
+
+NSString的字符是无法修改的。
 NSMutableString是可修改的字符串，实例化 NSMutableString使用了new方法， 当然也可以使用语法糖， 其实new方法内部调用了alloc和init，一个是分配空间，一个是初始化空间。
+
 其中init有多个方法，比如initWithString:@"jack"
+
 NSMutableString 还包括了appendFomat方法
 str2 appendFomat:@":%d
 
