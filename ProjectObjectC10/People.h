@@ -15,6 +15,6 @@
     BOOL sex;
     NSMutableString* name;
 }
--(void)setAge:(int)pAge andSex:(BOOL)pSex andName:(NSMutableString*)name;
+-(void)setAge:(int)pAge andSex:(BOOL)pSex andName:(NSString*)name;
 -(void)saySelfInfo;
 @end
