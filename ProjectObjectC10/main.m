@@ -22,6 +22,9 @@ int main(int argc, const char * argv[]) {
         
         //NSArray 是固定的数组 初始化完成之后 不能再添加了
 //        NSArray* array1=[NSArray arrayWithObjects:@"item1",@"item2"];
+        NSArray *arr3 = [NSArray arrayWithObjects:@"one",@"two",@1, nil];
+        int length=[arr3 count];//获取数组的长度
+        
         //NSMutableArray 是可以再添加的列表
         NSMutableArray* fixArray=[[NSMutableArray alloc]init];
         
