@@ -33,22 +33,39 @@ http://www.cnblogs.com/qingyuan/p/3550445.html
 NSLog 输出NSString类型的字符串  它可以以fomat形式输出
 NSLog的格式输出如下：
 %@        对象
+
 %d, %i   整数
+
 %u          无符整型
+
 %f           浮点/双字
+
 %x, %X   二进制整数
+
 %o          八进制整数
+
 %zu        size_t
+
 %p          指针
+
 %e          浮点/双字 （科学计算）
+
 %g          浮点/双字
+
 %s C      字符串
+
 %.*s        Pascal字符串
+
 %c           字符
+
 %C          unichar
+
 %lld        64位长整数（long long）
+
 %llu        无符64位长整数
+
 %Lf         64位双字
+
 例如：
 NSLog(@"Hello World");
 NSLog(@"the word is:%@",@"yours");
